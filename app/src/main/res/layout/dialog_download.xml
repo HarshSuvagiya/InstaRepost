@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24.0dip"
+    android:layout_marginBottom="24.0dip"
+    android:background="@drawable/bg_dialog">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llSelectAll"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:orientation="horizontal"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="16.0dip"
+                android:paddingRight="16.0dip">
+
+                <View
+                    android:id="@+id/viewSelectAll"
+                    android:layout_width="14.0dip"
+                    android:layout_height="14.0dip"
+                    android:background="@drawable/bg_select_all" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10.0dip"
+                    android:gravity="start|center"
+                    android:text="@string/select_all_media"
+                    android:textColor="@color/colorGrayText"
+                    android:textSize="12.0sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <view
+                    android:id="@+id/viewPager"
+                    class="com.jarvis.instarepost.classes.WrapContentHeightViewPager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/viewPager"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4.0dip"
+                    android:layoutDirection="ltr"
+                    app:dotsColor="#ffcfc4f9"
+                    app:dotsCornerRadius="3.0dip"
+                    app:dotsSize="5.0dip"
+                    app:dotsSpacing="2.5dip"
+                    app:dotsWidthFactor="2.5"
+                    app:progressMode="false"
+                    app:selectedDotColor="@color/colorPrimary" />
+
+                <ImageView
+                    android:id="@+id/imgSelect"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:layout_marginStart="28.0dip"
+                    android:layout_marginTop="28.0dip"
+                    android:background="@drawable/bg_select" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start|center"
+                android:orientation="horizontal"
+                android:padding="16.0dip">
+
+                <RelativeLayout
+                    android:layout_width="42.0dip"
+                    android:layout_height="42.0dip">
+
+                    <ProgressBar
+                        android:layout_width="36.0dip"
+                        android:layout_height="36.0dip"
+                        android:layout_centerInParent="true"
+                        android:theme="@style/AppTheme.DarkAccent" />
+
+                    <ImageView
+                        android:id="@+id/imgUserProfile"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textColor="#ff36485e"
+                    android:textSize="14.0sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtCaption"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:maxLines="3"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                android:textColor="@color/colorGrayText"
+                android:textSize="12.0sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="8.0dip"
+                android:layout_marginBottom="12.0dip">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/bg_download" />
+
+                <TextView
+                    android:id="@+id/txtDownload"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40.0dip"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingBottom="2.0dip"
+                    android:text="@string/download_this_post"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

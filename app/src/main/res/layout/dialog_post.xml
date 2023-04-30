@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24.0dip"
+    android:layout_marginBottom="24.0dip"
+    android:background="@drawable/bg_dialog">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <view
+                    android:id="@+id/viewPager"
+                    class="com.jarvis.instarepost.classes.WrapContentHeightViewPager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                    android:id="@+id/indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4.0dip"
+                    android:layoutDirection="ltr"
+                    app:dotsColor="#ffcfc4f9"
+                    app:dotsCornerRadius="3.0dip"
+                    app:dotsSize="5.0dip"
+                    app:dotsSpacing="2.5dip"
+                    app:dotsWidthFactor="2.5"
+                    app:progressMode="false"
+                    app:selectedDotColor="@color/colorPrimary" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16.0dip"
+                android:gravity="start|center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgUserProfile"
+                    android:layout_width="42.0dip"
+                    android:layout_height="42.0dip" />
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="14.0dip"
+                    android:layout_marginEnd="8.0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:textColor="#ff36485e"
+                    android:textSize="14.0sp" />
+
+                <ImageView
+                    android:id="@+id/imgShare"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:layout_marginEnd="12.0dip"
+                    android:src="@drawable/ic_share_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imgSetWallpaper"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:layout_marginEnd="12.0dip"
+                    android:src="@drawable/ic_photo_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imgCopy"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:layout_marginEnd="12.0dip"
+                    android:src="@drawable/ic_content_copy_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/imgDelete"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:src="@drawable/ic_delete_black_24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtCaption"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start|center"
+                android:maxLines="3"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                android:paddingBottom="16.0dip"
+                android:textColor="@color/colorGrayText"
+                android:textSize="12.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

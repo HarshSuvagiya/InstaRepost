@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Insta Repost</string>
+
+    <string name="note_one_short">Open Insta. Click More On Post and Copy Link.</string>
+    <string name="note_three">Boom! Photo or Video or IG TV is Automatically Saved to your device.</string>
+    <string name="note_three_short">NOTE : COPY LINK WILL NOT WORK FOR PRIVATE PROFILES.</string>
+    <string name="note_two">Paste your Link here. NOTE: Link will be automatically pasted, if Auto Download is ON</string>
+    <string name="note_two_short">Come back to this app and hit the download button.</string>
+    <string name="downloads">Downloads</string>
+    <string name="download">Download</string>
+    <string name="download_hint">Paste your link here…</string>
+    <string name="or">OR</string>
+    <string name="auto_download_help">When Auto download is enabled, you can download Instagram posts automatically just via click on copy link!</string>
+    <string name="instagram">Instagram</string>
+    <string name="auto_download">Auto Download</string>
+    <string name="settings">Settings</string>
+    <string name="no_viewer">No application to display this file!</string>
+    <string name="filter_view_mode">My Collection</string>
+    <string name="internal_storage">Internal Storage/</string>
+    <string name="storage_folder">Storage Folder</string>
+    <string name="select_your_language">Select Your Language</string>
+    <string name="advanced">Advanced</string>
+    <string name="notification_bar">Notification Bar</string>
+    <string name="notification_bar_description">Enable application notification bar.</string>
+    <string name="open_instagram">Open Instagram</string>
+    <string name="open_instagram_description">Open Instagram app by activating \"Fast Service.</string>
+    <string name="general">General</string>
+    <string name="auto_download_enabled">Auto download is enabled!</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="dismiss_notification">Dismiss</string>
+    <string name="loading">Loading</string>
+    <string name="select_all_media">Select all media</string>
+    <string name="download_this_post">Download this post</string>
+    <string name="no_media_selected">No media selected</string>
+    <string name="delete_post_title">Delete Post</string>
+    <string name="files_deleted">Files deleted!</string>
+    <string name="caption_copied">Caption copied!</string>
+    <string name="set_video_wallpaper">"We can't set video file as your wallpaper!"</string>
+    <string name="set_wallpaper_title">Set Wallpaper</string>
+    <string name="wallpaper_change_failed">Wallpaper change failed!</string>
+    <string name="wallpaper_changed">Wallpaper changed successfully!</string>
+    <string name="file_not_exist">File does not exist!</string>
+    <string name="downloading_files">Downloading files</string>
+    <string name="download_files_failed">Download files failed!</string>
+    <string name="create_folder_failed">"Folder can't be created!"</string>
+    <string name="no_internet">No internet!</string>
+    <string name="private_page">"Posts from private pages can't be processed!"</string>
+    <string name="invalid_post_link">Invalid post link!</string>
+    <string name="close_app">Close App</string>
+    <string name="close_app_message">Are you sure you want to close app?!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="permission">Permission</string>
+    <string name="request_permission">We need your permission to save downloaded files on your device!</string>
+    <string name="tour_main_text">"1. Open/Tap Instagram
+2. Copy Link of the post you are interested in.
+3. Tap Download this post"</string>
+    <string name="tour_main_title">How to use Insta Repost</string>
+    <string name="delete_post">Are you sure you want to delete this post?!</string>
+    <string name="set_wallpaper">This photo will be set as your wallpaper!</string>
+</resources>

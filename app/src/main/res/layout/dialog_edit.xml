@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24.0dip"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="1000.0dip"
+                android:layout_height="0.0dip" />
+
+            <TextView
+                android:id="@+id/txtMessage"
+                fontPath="fonts/rubik_medium.ttf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16.0dip"
+                android:textColor="#ff34495e"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@+id/edtValue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:layout_marginBottom="16.0dip"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="14.0dip"
+                android:paddingTop="12.0dip"
+                android:paddingRight="14.0dip"
+                android:paddingBottom="12.0dip"
+                android:textColor="#ff7f8c8d"
+                android:textSize="14.0sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtCancel"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48.0dip"
+                        android:background="@drawable/bg_dialog_button_left"
+                        android:gravity="center"
+                        android:textColor="#ff7f8c8d"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1.0dip"
+                    android:layout_height="16.0dip"
+                    android:background="@drawable/divider_settings" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtConfirm"
+                        android:layout_width="fill_parent"
+                        android:layout_height="48.0dip"
+                        android:background="@drawable/bg_dialog_button_right"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="14.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="medium_black">#ff212121</color>
+    <color name="colorBackground">#ffecf0f1</color>
+    <color name="colorAccent">#ff34495e</color>
+    <color name="colorDefaultTab">#ff4d4d4f</color>
+    <color name="colorGrayText">#ffbdc3c7</color>
+    <color name="colorHelpTab">#ffe1306c</color>
+    <color name="colorHomeTab">#ff613cea</color>
+    <color name="colorPrimary">#ff613cea</color>
+    <color name="colorPrimaryDark">#ff613cea</color>
+    <color name="colorPrimaryPallid">#1a613cea</color>
+    <color name="colorSettingsTab">#ffc13584</color>
+    <color name="colorToastFail">#ffdf5959</color>
+    <color name="colorToastSuccess">#ff7dc58c</color>
+    <color name="colorToastWarning">#ffffb355</color>
+    <color name="colorWhite">#ffffffff</color>
+</resources>
