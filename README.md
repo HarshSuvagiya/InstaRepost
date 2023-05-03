@@ -9,6 +9,9 @@ Easily repost photos and videos from Instagram.
 <li> The caption is automatically copied for easy pasting </li>
 </ul>
 
+## Screenshots
+<img src="Screenshots/1.png" width="100%">
+
 ## Social Media
 
 <p align="left">
