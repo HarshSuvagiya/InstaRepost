@@ -10,7 +10,7 @@ Easily repost photos and videos from Instagram.
 </ul>
 
 ## Screenshots
-<img src="ScreenShots/1.png" width="250"><img src="ScreenShots/2.png" width="250"><img src="ScreenShots/3.png" width="250">
+<img src="ScreenShots/1.png" width="250">&nbsp;<img src="ScreenShots/2.png" width="250">&nbsp;<img src="ScreenShots/3.png" width="250">
 
 ## Social Media
 
